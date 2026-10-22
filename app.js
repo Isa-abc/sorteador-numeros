@@ -9,6 +9,21 @@ function sortear() {
         return;
     }
 
+    if (quantidade <= 0 || quantidade >= 1000) {
+        alert('A quantidade de números sorteados deve ser maior que 0 e menor que 1000!');
+        return;
+    }
+
+    if (de <= 0 || de >= 1000) {
+        alert('O valor do número inicial deve ser maior que 0 e menor que 1000!');
+        return;
+    }
+
+    if (ate <= 0 || ate >= 1000) {
+        alert('O valor do número final deve ser maior que 0 e menor que 1000!');
+        return;
+    }
+
     let sorteados = [];
     let numero;
 
