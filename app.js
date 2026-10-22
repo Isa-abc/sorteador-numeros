@@ -24,7 +24,6 @@ function sortear() {
         return;
     }
 
-
     let sorteados = [];
     let numero;
 
